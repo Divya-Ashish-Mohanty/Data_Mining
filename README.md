@@ -1,8 +1,5 @@
 # SnowScrape_ETL
 ---
-
-## Project Title: **SnowScrape_ETL**
-
 ### Description
 **WebScrape2Snowflake** is a Python-based ETL (Extract, Transform, Load) pipeline designed for extracting data from websites, transforming it according to specific business or analytical needs, and storing it in a Snowflake data warehouse. This project leverages powerful Python libraries such as Beautiful Soup for web scraping, Pandas and NumPy for data transformation, and the Snowflake connector for seamless data integration.
 
@@ -28,8 +25,8 @@ pip install beautifulsoup4 pandas numpy snowflake-connector-python
 ### Usage
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/yourusername/WebScrape2Snowflake.git
-   cd WebScrape2Snowflake
+   git clone https://github.com/Divya_Ashish_Mohanty/SnowScrape_ETL.git
+   cd SnowScrape_ETL
    ```
 
 2. **Configure Snowflake Connection:**
@@ -45,16 +42,7 @@ pip install beautifulsoup4 pandas numpy snowflake-connector-python
    ```bash
    python etl_pipeline.py
    ```
-
-### Project Structure
-- `etl_pipeline.py`: The main script to run the ETL pipeline.
-- `extractor.py`: Contains functions for data extraction using Beautiful Soup.
-- `transformer.py`: Includes functions for data transformation and cleaning using Pandas and NumPy.
-- `loader.py`: Handles the loading of data into Snowflake.
-- `config.py`: Stores configuration settings for Snowflake connection.
-- `requirements.txt`: Lists all Python dependencies required for the project.
-- `README.md`: Project documentation.
-
+   
 ### Contributing
 Contributions are welcome! Please fork this repository, make your changes, and submit a pull request. Ensure your code is well-documented and follows the project's coding style.
 
