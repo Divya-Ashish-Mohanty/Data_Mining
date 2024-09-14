@@ -1,7 +1,7 @@
 # SnowScrape_ETL
 ---
 ### Description
-**WebScrape2Snowflake** is a Python-based ETL (Extract, Transform, Load) pipeline designed for extracting data from websites, transforming it according to specific business or analytical needs, and storing it in a Snowflake data warehouse. This project leverages powerful Python libraries such as Beautiful Soup for web scraping, Pandas and NumPy for data transformation, and the Snowflake connector for seamless data integration.
+**SnowScrape_ETL** is a Python-based ETL (Extract, Transform, Load) pipeline designed for extracting data from websites, transforming it according to specific business or analytical needs, and storing it in a Snowflake data warehouse. This project leverages powerful Python libraries such as Beautiful Soup for web scraping, Pandas and NumPy for data transformation, and the Snowflake connector for seamless data integration.
 
 ### Key Features
 - **Data Extraction:** Uses Beautiful Soup to scrape structured and semi-structured data from websites.
